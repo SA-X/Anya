@@ -1,0 +1,89 @@
+body{
+    min-height: 100vh;
+    background-image:url(Imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background: linear-gradient(to right top, #7ABFB3, #5C9EC4);
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+}
+
+.anyaLog{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+
+.logo{
+    margin: 0;
+    display: flex;
+    width: 85%;
+
+}
+
+.titulo{
+    color: #D9618D;
+    font-family: 'Angelface', sans-serif;
+    font-size: 50px;  
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+form{
+    background: linear-gradient(#7ABFB3, #D9618D);
+    width: 280px;
+    padding: 40px 10px 0 10px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border: 3px solid grey;
+    border-radius: 12px;
+}
+
+fieldset{
+    width: 280px;
+    margin: 0 auto;
+    border: none;
+    padding: 0 0 10px 0;
+    background: linear-gradient(#7abfb400, #d9618d00);
+}
+
+input{
+    display: block;
+    border: none;
+    margin: 20px auto;
+    width: 280px;
+    background-color: #eaeaea;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #D9618D;
+}
+
+input[type="email"]{
+    background-color: #fdfbfb;
+}
+
+input[type="password"]{
+    background-color: #fdfbfb;
+}
+
+input[type="submit"]{
+    background: linear-gradient(to left top, #fdfbfb);
+    color: #080808;
+    cursor: pointer;
+}
+
+legend{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #777;
+}
