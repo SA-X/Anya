@@ -3,6 +3,7 @@ body{
     background-image:url(Imagenes/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
 }
 
 .header{
@@ -34,23 +35,24 @@ body{
     padding-top: 20px;
 }
 
+.space{
+    padding: 5% 0;
+}
 
 form{
-    background: linear-gradient(#7ABFB3, #D9618D);
+    background: linear-gradient(#7abfb4d0, #d9618dd0);
     width: 280px;
-    padding: 40px 10px 0 10px;
+    padding: 20px 10px;
     margin: 0 auto;
-    margin-top: 10%;
-    border: 3px solid grey;
-    border-radius: 12px;
+    margin-top: 3%;
+    border-radius: 15px;
 }
 
 fieldset{
-    width: 280px;
+    width: 180px;
     margin: 0 auto;
     border: none;
     padding: 0 0 10px 0;
-    background: linear-gradient(#7abfb400, #d9618d00);
 }
 
 input{
@@ -58,7 +60,6 @@ input{
     border: none;
     margin: 20px auto;
     width: 280px;
-    background-color: #eaeaea;
     padding: 15px 0;
     text-align: center;
     font-size: 18px;
@@ -67,16 +68,16 @@ input{
 }
 
 input[type="email"]{
-    background-color: #fdfbfb;
+    background-color: #c6eee7b0;
 }
 
 input[type="password"]{
-    background-color: #fdfbfb;
+    background-color: #c6eee7b0;
 }
 
 input[type="submit"]{
-    background: linear-gradient(to left top, #fdfbfb);
-    color: #080808;
+    background: linear-gradient(to left top, #5C9EC4, #7ABFB3);
+    color: #D9618D;
     cursor: pointer;
 }
 
@@ -85,5 +86,11 @@ legend{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    color: #777;
+    color: #A6445E;
+}
+
+a{
+    text-decoration: none;
+    color: #1C3D59;
+    font-weight: bold;
 }
