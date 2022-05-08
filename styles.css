@@ -2,6 +2,8 @@ body{
     background-color: #F2D4C2;
 }
 
+@import url('http://fonts.cdnfonts.com/css/angelface');
+
 .header{
     background: linear-gradient(to right top, #7ABFB3, #5C9EC4);
     position: fixed;
